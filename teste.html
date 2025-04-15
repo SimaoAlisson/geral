@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Tabelas de Linhas e Cidades</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f4f8;
+      margin: 0;
+      padding: 40px;
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+
+    .container {
+      display: flex;
+      gap: 30px;
+      flex-wrap: wrap;
+      max-width: 95%;
+    }
+
+    .tabela {
+      flex: 1;
+      min-width: 500px;
+    }
+
+    h2 {
+      text-align: center;
+      color: #333;
+      margin-bottom: 10px;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+      font-size: 14px;
+      background-color: #fff;
+      box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 8px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #e3f2fd;
+      color: #000;
+    }
+
+    td {
+      background-color: #fdfdfd;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="tabela">
+      <h2>Informações das Linhas</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Linha</th>
+            <th>Setor</th>
+            <th>Frota</th>
+            <th>Placa</th>
+            <th>Motorista</th>
+            <th>Ajudante</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>2001</td><td>Jau 1</td><td>72685</td><td>BTO3719</td><td>FERNANDO 7330</td><td>MATHEUS 1123</td></tr>
+          <tr><td>2002</td><td>Jau 2</td><td>3279</td><td>BDBC9942</td><td>RAFAEL 5689</td><td>VINICIUS</td></tr>
+          <tr><td>2003</td><td>Avenida</td><td>72320</td><td>COL5I74</td><td>VALDIR 6821</td><td>JACQUES 1098</td></tr>
+          <tr><td>2004</td><td>Centro, Potunduva</td><td>70149</td><td>DAH5363</td><td>DIEGO 3531</td><td></td></tr>
+          <tr><td>2005</td><td>Dois Corregos, Mineiros do Tietê</td><td>78907</td><td>EIW5A13</td><td>MARCELO 16857</td><td>JOSE LUIZ 65</td></tr>
+          <tr><td>2006</td><td>Barra Bonita, Igaraçu</td><td>72892</td><td>BXJ9562</td><td>JOAO GERALDO 7740</td><td></td></tr>
+          <tr><td>2007</td><td>Itapui, Bariri</td><td>76122</td><td>BUS6H55</td><td>CARLOS 8929</td><td>PAULINHO 67</td></tr>
+          <tr><td>2009</td><td>Território, Bocaina</td><td>74825</td><td>IEC3C69</td><td>LEANDRO 10666</td><td></td></tr>
+          <tr><td>2010</td><td>Auto Peças</td><td>75198</td><td>DFI3J61</td><td>LUIZ 14648</td><td>JOAO PAULO 751</td></tr>
+          <tr><td>2011</td><td>Super</td><td>72658</td><td>FNQ7183</td><td>BRUNO 15053</td><td>BRUNO EUGENIO 625</td></tr>
+          <tr><td>2012</td><td>Taxas</td><td>72515</td><td>EOM6999</td><td>RICARDO 6575</td><td>MOTORISTA ZEZAO</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="tabela">
+      <h2>Cidades por Dia da Semana</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Cidade Destino</th>
+            <th>Seg</th>
+            <th>Ter</th>
+            <th>Qua</th>
+            <th>Qui</th>
+            <th>Sex</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr><td>Jaú</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+          <tr><td>Bariri</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+          <tr><td>Barra Bonita</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+          <tr><td>Bocaina</td><td>X</td><td></td><td>X</td><td></td><td>X</td></tr>
+          <tr><td>Igaraçu do Tiete</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+          <tr><td>Mineiros do Tiete</td><td>X</td><td></td><td>X</td><td></td><td>X</td></tr>
+          <tr><td>Torrinha</td><td></td><td>X</td><td></td><td>X</td><td></td></tr>
+          <tr><td>Dois Corregos</td><td>X</td><td>X</td><td>X</td><td>X</td><td>X</td></tr>
+          <tr><td>Boraceia</td><td></td><td></td><td>X</td><td></td><td></td></tr>
+          <tr><td>Itapui</td><td>X</td><td></td><td>X</td><td></td><td>X</td></tr>
+          <tr><td>Guarapua/Potunduva</td><td></td><td></td><td>X</td><td></td><td></td
